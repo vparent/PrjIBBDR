@@ -12,4 +12,52 @@ relationnel.
 I-Elaboration du MCD
 
 A la lecture du descriptif du projet, nous avons dégagé un certain nombre de propriétés (voir DD),
-et 
+4 entités et 5 associations.
+
+ENTITES :
+
+-BIEN (nom susceptible de changer)
+    Première entité évidente à émerger de la lecture du descriptif. Elle représente les appartements
+    mis en location par l'agence.
+    L'identifiant choisit est l'adresse physique du bien, à priori suffisamment discriminante et
+    distincte.
+    
+  -PROPRIETAIRE
+    identifiant = nom du propriétaire
+    
+  -LOCATAIRE
+    identifiant = nom du locataire
+    
+  -AGENCE
+      entité sans propriétés en version 1
+      
+  -CONTRAT
+      identifiant = date du bail
+      
+      
+   ASSOCIATIONS :
+   
+    s'adresse à :
+        binaire
+        relie PROPRIETAIRE et AGENCE
+        
+    possède :
+        binaire
+        relie PROPRIETAIRE et BIEN
+        
+    s'occupe :
+        binaire
+        relie AGENCE et BIEN
+        
+     s'intéresse :
+        binaire
+        relie BIEN et LOCATAIRE
+        
+     démarche :
+        binaire
+        relie AGENCE et LOCATAIRE
+        
+        
+     MCD VERSION 2 :
+     
+     MCD VERSION 3 :
