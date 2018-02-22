@@ -1,0 +1,15 @@
+Dossier de Spécification Logicielle
+
+INTRODUCTION :
+
+Le projet vise à créer une base de données permettant la gestion d'une agence immobilière.
+Dans le descriptif du projet se trouvent un résumé des différentes opérations effectuables
+par la dite agence, et des liens avec ses clients. A partir de là, on dégagera les premières
+entités et associations, ainsi que les propriétés liés, qui permettront de créer un version
+initiale de MCD selon le modèle MERISE. A partir de celui-ci sera établi un MLD-R ou modèle
+relationnel.
+
+I-Elaboration du MCD
+
+A la lecture du descriptif du projet, nous avons dégagé un certain nombre de propriétés (voir DD),
+et 
